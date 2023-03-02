@@ -1,0 +1,21 @@
+<section>
+    <app-button-reset id="getResult" name="TOTAL" (click)="Result(tip, inBill, numberOfPersons)"></app-button-reset>
+
+    <div class="tip-amount-total">
+        <div>
+            <h3>Tip Amount</h3>
+            <p>/person</p>
+        </div>
+        <h2>{{ tipAmount | currency }}</h2>
+    </div>
+
+    <div class="tip-amount-total">
+        <div>
+            <h3>Total</h3>
+            <p>/person</p>
+        </div>
+        <h2>{{ total | currency }}</h2>
+    </div>  
+
+    <app-button-reset id="reset" name="RESET" (click)="reset()"></app-button-reset>
+</section>

@@ -1,0 +1,47 @@
+<section>
+    <div>
+        <span>bill</span>
+        <div class="inputField" [id]="onFocus">
+            <img src="../assets/icon-dollar.svg" alt="icon">
+            <input type="text" name="bill" id="inBill" placeholder="0,00" currencyMask [(ngModel)]="inBill" (focus)="billFocus()" (blur)="billFocusOff()" [options]="{ prefix: ' ', thousands: '.', decimal: ',', allowNegative: false }">
+        </div>
+
+        <div class="selectTip">
+            <p>Select Tip %</p>
+            <div class="buttonsTip">
+                <div class="button">
+                    <input type="checkbox" id="1" #button1 (click)="tipSelect(button1.id)" name="select">
+                    <label for="1">5%</label>
+                </div>
+                <div class="button">
+                    <input type="checkbox" id="2" #button2 (click)="tipSelect(button2.id)" name="select">
+                    <label for="2">10%</label>
+                </div>
+                <div class="button">
+                    <input type="checkbox" id="3" #button3 (click)="tipSelect(button3.id)" name="select">
+                    <label for="3">15%</label>
+                </div>
+                <div class="button">
+                    <input type="checkbox" id="4" #button4 (click)="tipSelect(button4.id)" name="select">
+                    <label for="4">25%</label>
+                </div>
+                <div class="button">
+                    <input type="checkbox" id="5" #button5 (click)="tipSelect(button4.id)" name="select">
+                    <label for="5">50%</label>
+                </div>
+                <input type="number" id="6" #button6 [(ngModel)]="customTip" placeholder="custom" class="chaceFocus" (blur)="tipSelect(button6.id)">
+            </div>
+        </div>
+       
+        <span>Number of People</span>
+        <div class="inputField" [id]="onFocuss">
+            <img src="../assets/icon-dollar.svg" alt="icon">
+            <input type="text" name="Persons"  id="numberOfPersons" placeholder="0" (focus)="changeFocuss()" (blur)="focussOff()" [(ngModel)]="numberOfPersons" >
+        </div>
+    </div>
+
+    <div class="result-and-reset">
+        <app-result-and-reset-area #result [tip]="tip" [inBill]="inBill" [numberOfPersons]="numberOfPersons"></app-result-and-reset-area>
+    </div>
+</section>
+

@@ -1,0 +1,32 @@
+.tik-and-bill {
+    background-color: var(--White);
+    border-radius: 12px;
+    padding: 18px;
+}
+
+.result-and-reset {
+    background-color: var(--VeryDarkCyan);
+    border-radius: 12px;
+    padding: 18px;
+    margin-top: 24px;
+}
+
+@media (min-width: 1440px) {
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tik-and-bill {
+        width: 740px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .result-and-reset {
+        margin-top: 0px;
+    }
+}
