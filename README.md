@@ -40,15 +40,15 @@ Versão Desktop:
 
 Versão Mobile:
 <p aling="center"> 
-    <img width="560" height="480" src="src/assets/screens-03.jpg" >
+    <img width="920" height="1992" src="src/assets/screens-03.jpg" >
 </p>
 
 <p aling="center"> 
-    <img width="560" height="480" src="src/assets/screens-02.jpg" >
+    <img width="920" height="1992"" src="src/assets/screens-02.jpg" >
 </p>
 
 <p aling="center"> 
-    <img width="560" height="480" src="src/assets/screens-01.jpg" >
+    <img width="920" height="1992" src="src/assets/screens-01.jpg" >
 </p>
 
 ## Meu processo
