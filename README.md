@@ -21,11 +21,35 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
+Versão Desktop:
+<p aling="center"> 
+    <img width="520" height="360" src="src/assets/screens-04.jpg">
+</p>
 
-### Links
+<p aling="center"> 
+    <img width="520" height="360" src="src/assets/screens-05.jpg">
+</p>
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+<p aling="center"> 
+    <img width="520" height="360" src="src/assets/screens-06.jpg">
+</p>
+
+<p aling="center"> 
+    <img width="520" height="360" src="src/assets/screens-07.jpg">
+</p>
+
+Versão Mobile:
+<p aling="center"> 
+    <img width="560" height="480" src="src/assets/screens-03.jpg" >
+</p>
+
+<p aling="center"> 
+    <img width="560" height="480" src="src/assets/screens-02.jpg" >
+</p>
+
+<p aling="center"> 
+    <img width="560" height="480" src="src/assets/screens-01.jpg" >
+</p>
 
 ## Meu processo
 
